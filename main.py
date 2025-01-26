@@ -11,7 +11,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # Load environment variables
 load_dotenv(r"C:\Users\lamaq\OneDrive\Desktop\DS project components\.env")
-groq_api_key = os.getenv('GROQ_API_KEY')
+groq_api_key ="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"
 os.environ['GROQ_API_KEY'] = "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"
 
 # Set up the LangChain LLM
