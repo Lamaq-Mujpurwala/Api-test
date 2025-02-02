@@ -7,7 +7,7 @@ from langchain.agents import AgentExecutor
 
 
 llm = ChatGroq(
-    api_key="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",
+    api_key="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",
     model="deepseek-r1-distill-llama-70b",
     temperature=0.7, #initially was 0.7
     verbose=True,
