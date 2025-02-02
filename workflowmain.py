@@ -18,7 +18,7 @@ def generate_case_study_v2(csv_path, concept):
     # Final structured guide generation
     final_llm = ChatGroq(
         api_key="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",
-        model="deepseek-r1-distill-llama-70b",
+        model="llama-3.3-70b-versatile",
         temperature=0.5
     )
 
