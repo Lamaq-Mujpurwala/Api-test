@@ -11,6 +11,7 @@ class CodeInput(BaseModel):
 
 # Define the LLM
 llm = ChatGroq(
+    api_key="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",
     model="deepseek-r1-distill-llama-70b",
     temperature=0.7,
     streaming=True  # Enables streaming
